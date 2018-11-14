@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>проверка полиндрома</title>
+    <script src="main.js"></script>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" class="userform">
+        <div class="errors">
+            <p class="empty-fields"></p>
+            <p class="wrong-value"></p>
+            <p class="not-equal-passwords"></p></div>
+        
+        <p class="form-label">user name</p>
+        <input type="text"  id="username" pattern="[A-Za-z]"  required>
+
+        <p class="form-label">email</p>
+        <input type="email" name="" id="email" pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}" required>
+
+        <p class="form-label">password</p>
+        <input type="password" name="" id="password" pattern="[A-Za-z0-9]{8,12}" required maxlength=12>
+        
+        <p class="form-label">confirm</p>
+        <input type="password" name="" id="confirmpassword" required maxlength=12>
+        
+        <p class="form-label">gender</p>
+        <select name="gender" id="gender">
+            <option value="man">man</option> 
+            <option value="female">female</option>
+        </select>
+
+        <div class="container-btn">            
+            <button type="button" id="submit" class="btn">ok</button>
+            <button type="reset" id="reset" class="btn">cansel</button>
+        </div>
+    </form>
+</body>
+</html>
