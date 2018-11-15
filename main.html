@@ -11,10 +11,11 @@
 </head>
 <body>
     <form action="#" class="userform">
-        <div class="errors">
-            <p class="empty-fields"></p>
-            <p class="wrong-value"></p>
-            <p class="not-equal-passwords"></p></div>
+        <div class="errors hide-message">
+            <p class="empty-fields hide-message"></p>
+            <p class="wrong-value hide-message"></p>
+            <p class="not-equal-passwords hide-message">NOT EQUAL PASSWORDS</p>
+        </div>
         
         <p class="form-label">user name</p>
         <input type="text"  id="username" pattern="[A-Za-z]"  required>
@@ -29,14 +30,14 @@
         <input type="password" name="" id="confirmpassword" required maxlength=12>
         
         <p class="form-label">gender</p>
-        <select name="gender" id="gender">
+        <select name="gender" id="gender" class="gender">
             <option value="man">man</option> 
             <option value="female">female</option>
         </select>
 
         <div class="container-btn">            
-            <button type="button" id="submit" class="btn">ok</button>
-            <button type="reset" id="reset" class="btn">cansel</button>
+            <button type="button" id="submit" class="btn">Ok</button>
+            <button type="reset" id="reset" class="btn">Cansel</button>
         </div>
     </form>
 </body>

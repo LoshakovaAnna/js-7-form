@@ -1,6 +1,6 @@
 .userform{
     display: block;
-    padding: 30px;
+    padding: 15px 30px;
     width:250px;
     height: auto;
     border: 20px solid #f0f0f0;
@@ -19,7 +19,9 @@
     justify-content: space-between;
 }
 .btn{
-    height: 25px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
 }
 .error-input{
     border-color: red;
@@ -30,8 +32,22 @@
     border-color: red;
 }
 .errors{
+    padding: 1px;
+    
     background-color: #c4d6ac;
     color: red;
     width: 200px;
+    height: auto;
     font-weight: bold;
+}
+
+.gender{
+    width: 173px;
+    height: 21px;
+}
+.show-message{
+    display: block;
+}
+.hide-message{
+    display: none;
 }
