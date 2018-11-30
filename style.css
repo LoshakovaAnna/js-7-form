@@ -3,14 +3,12 @@
     padding: 15px 30px;
     width:250px;
     height: auto;
-    border: 20px solid #f0f0f0;
+    border: 20px solid #a29e9e;
     border-radius: 5px;
     margin: auto;
-
 }
 .form-label{
-    text-transform: uppercase;
-  
+    text-transform: uppercase;  
 }
 .container-btn{
     margin-top: 20px;
@@ -27,20 +25,17 @@
     border-color: red;
 }
 .error-password{
-    background-color: yellow;
-    
+    background-color: yellow;    
     border-color: red;
 }
 .errors{
-    padding: 1px;
-    
+    padding: 1px;    
     background-color: #c4d6ac;
     color: red;
     width: 200px;
     height: auto;
     font-weight: bold;
 }
-
 .gender{
     width: 173px;
     height: 21px;
